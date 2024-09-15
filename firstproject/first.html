@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .countt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: xx-large;
+        color: darkblue;
+    }
+    .btn{
+        padding: 10px;
+        margin: 10px;
+        color: rgb(0, 103, 103);
+        background: #ffb2b2;
+        border: solid rgb(22, 121, 175);
+        font-size: large;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.25s;
+    }
+    .btn:hover{
+        
+        color: rgb(42, 250, 250);
+        background: #3f2b2b;
+        border: solid rgb(22, 121, 175);
+       
+    }
+</style>
+<body>
+    <div class="countt"><h1 id="count">0</h1></div>
+    <div class="container">
+    <button id="re" class="btn">reset</button>
+    <button id="countincrease" class="btn">Increment</button>
+    <button id="countdecrease" class="btn">Decrement</button></div>
+    <script src="first.js"></script>
+</body>
+</html>
