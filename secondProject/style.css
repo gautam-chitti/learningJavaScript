@@ -1,0 +1,37 @@
+img{
+    height: 150px;
+    width: 150px;
+    transition:ease-out 0.5s;
+}
+.hidden{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+.theContainer{
+    margin: 10px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+button{
+    font-size: larger;
+    height: 50px;
+    width: 150px;
+    color: aquamarine;
+    background: #321313;
+    border: 2px solid aqua;
+    border-radius: 7px;
+    transition: 0.35s;
+}
+button:hover{
+    cursor: pointer;
+    color:  #321313;
+    background: aquamarine;
+    border: 2px solid #1a0a0a;
+}
