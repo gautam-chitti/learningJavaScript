@@ -1,0 +1,41 @@
+.all{
+    border: 2px solid antiquewhite;
+    margin-top: 150px;
+    margin-left: 150px ;
+    margin-right: 150px ;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+body{
+    background-color: rgb(43, 26, 26);
+    color: antiquewhite;
+}
+
+
+input{
+    height: 35px;
+    width: 150px;
+    font-size: large;
+}
+.btnn{
+    height: 50px;
+    margin: 10px;
+    width: 150px;
+    background: rgb(39, 39, 39);
+    color: aqua;
+    border: 5px solid black;
+    font-size: larger;
+    transition:  0.35s;
+}
+.btnn:hover{
+    background: aquamarine;
+    border: 5px solid aqua ;
+    color: black;
+    font-size: x-large;
+}
