@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-
+    <div class="all">
+    <div class="container"><input type="checkbox" id="lowerCase"><label for="lowerCase">Lower Case letters</label></div>
+    <div class="container"><input type="checkbox" id="upperCase"><label for="upperCase">Upper Case letters</label></div>
+    <div class="container"><input type="checkbox" id="specialCharacter" class="sp"><label for="specialCharacter">Special Character</label></div>
+    <div class="container"><input type="checkbox" id="nums"><label for="nums">Numbers</label></div>
+    <div class="container"><input type="number" id="input" min="8" placeholder="Enter the required length"></div>
+    <div class="container"><button id="btn">Generate</button></div>
+    <div class="container"><div id="result">Click on Generate</div></div>
+</div>
 
 
     <script src="index.js"></script>
